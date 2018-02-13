@@ -19,6 +19,13 @@ import base64
 from flask import Flask, render_template, request
 app = Flask(__name__)
 
+#
+# Copyright 2016 David Steele <dsteele@gmail.com>
+# This file is part of comitup
+# Available under the terms of the GNU General Public License version 2
+# or later
+#
+
 import sys
 sys.path.append('.')
 sys.path.append('..')
