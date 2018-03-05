@@ -17,6 +17,8 @@
 # Available under the terms of the GNU General Public License version 2
 # or later
 #
+import sys
+sys.path.append("/usr/share/comitup")
 
 import dbus
 import dbus.service
